@@ -10,7 +10,7 @@ export default function TechStack() {
         {
             image: '/images/mobile-dev.png',
             title: 'Mobile Development',
-            details: 'With more people in this world having access to mobile phones, it only makes sense that we adapt with this disruption. I am able to help you in launching your first mobile app. The technology used is be the Flutter SDK',
+            details: 'With more people in this world having access to mobile phones, it only makes sense that we adapt with this disruption. I am able to help you in launching your first mobile app. The technology used is the Flutter SDK',
             id: 1
         },
         {
