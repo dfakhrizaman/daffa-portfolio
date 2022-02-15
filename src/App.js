@@ -4,12 +4,13 @@ import HomePage from './pages/HomePage';
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@emotion/react';
 
+
 function App() {
 
   const theme = createTheme({
     typography: {
       fontFamily: `"Poppins", sans-serif`
-    }
+    },
   });
 
   return (
@@ -17,7 +18,6 @@ function App() {
       <ThemeProvider theme={theme}>
         <HomePage/>
       </ThemeProvider>
-      
     </div>
   );
 }
